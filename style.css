@@ -1,0 +1,36 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.images {
+    margin: 0 auto;
+    width: 50%;
+    gap: 2em;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+html,body {
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    gap: 1em;
+}
+ul {
+    list-style: none;
+}
+aside {
+    width: 40%;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+.brand {
+    display: flex;
+    gap: 5px;
+}
+.brand img{
+    border-radius: 50%;
+}
